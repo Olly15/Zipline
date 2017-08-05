@@ -9,80 +9,76 @@ game = "menu"
 death_time = None
 first_time = True
 
-far_hills_image = pygame.image.load("Zipline_Hills.png")
+far_hills_image = pygame.image.load("Images/Zipline_Hills.png")
 
-forest_hills_image = pygame.image.load("Forest_Hills.png")
-village_hills_image = pygame.image.load("Village_Hills.png")
-castle_hills_image = pygame.image.load("Castle_Hills.png")
-snow_hills_image = pygame.image.load("Snow_Hills.png")
-
-sunset_image = pygame.image.load("Sunset.png")
-sky_image = pygame.image.load("Sky.png")
+forest_hills_image = pygame.image.load("Images/Forest_Hills.png")
+village_hills_image = pygame.image.load("Images/Village_Hills.png")
+castle_hills_image = pygame.image.load("Images/Castle_Hills.png")
 
 areas = [forest_hills_image, village_hills_image, castle_hills_image]
 
-swift_image = pygame.image.load("Swift.png")
-swift_sound = pygame.mixer.Sound("swift_sound.wav")
+swift_image = pygame.image.load("Images/Swift.png")
+swift_sound = pygame.mixer.Sound("Sounds/swift_sound.wav")
 
-eagle1_image = pygame.image.load("Eagle1.png")
-eagle2_image = pygame.image.load("Eagle2.png")
+eagle1_image = pygame.image.load("Images/Eagle1.png")
+eagle2_image = pygame.image.load("Images/Eagle2.png")
 eagle_anim = [eagle1_image, eagle2_image]
-eagle_sound = pygame.mixer.Sound("eagle_sound.wav")
+eagle_sound = pygame.mixer.Sound("Sounds/eagle_sound.wav")
 
-owl1_image = pygame.image.load("Owl1.png")
-owl2_image = pygame.image.load("Owl2.png")
+owl1_image = pygame.image.load("Images/Owl1.png")
+owl2_image = pygame.image.load("Images/Owl2.png")
 owl_anim = [owl1_image, owl2_image]
-owl_sound = pygame.mixer.Sound("owl_sound.wav")
+owl_sound = pygame.mixer.Sound("Sounds/owl_sound.wav")
 
-robin1_image = pygame.image.load("Robin1.png")
-robin2_image = pygame.image.load("Robin2.png")
+robin1_image = pygame.image.load("Images/Robin1.png")
+robin2_image = pygame.image.load("Images/Robin2.png")
 robin_anim = [robin1_image, robin2_image]
-robin_sound = pygame.mixer.Sound("robin_sound.wav")
+robin_sound = pygame.mixer.Sound("Sounds/robin_sound.wav")
 
-pigeon1_image = pygame.image.load("Pigeon1.png")
-pigeon2_image = pygame.image.load("Pigeon2.png")
+pigeon1_image = pygame.image.load("Images/Pigeon1.png")
+pigeon2_image = pygame.image.load("Images/Pigeon2.png")
 pigeon_anim = [pigeon1_image, pigeon2_image]
-pigeon_sound = pygame.mixer.Sound("pigeon_sound.wav")
+pigeon_sound = pygame.mixer.Sound("Sounds/pigeon_sound.wav")
 
-duck1_image = pygame.image.load("Duck1.png")
-duck2_image = pygame.image.load("Duck2.png")
+duck1_image = pygame.image.load("Images/Duck1.png")
+duck2_image = pygame.image.load("Images/Duck2.png")
 duck_anim = [duck1_image, duck2_image]
-duck_sound = pygame.mixer.Sound("duck_sound.wav")
+duck_sound = pygame.mixer.Sound("Sounds/duck_sound.wav")
 
-raven1_image = pygame.image.load("Raven1.png")
-raven2_image = pygame.image.load("Raven2.png")
+raven1_image = pygame.image.load("Images/Raven1.png")
+raven2_image = pygame.image.load("Images/Raven2.png")
 raven_anim = [raven1_image, raven2_image]
-raven_sound = pygame.mixer.Sound("raven_sound.wav")
+raven_sound = pygame.mixer.Sound("Sounds/raven_sound.wav")
 
-seagull1_image = pygame.image.load("Seagull1.png")
-seagull2_image = pygame.image.load("Seagull2.png")
+seagull1_image = pygame.image.load("Images/Seagull1.png")
+seagull2_image = pygame.image.load("Images/Seagull2.png")
 seagull_anim = [seagull1_image, seagull2_image]
-seagull_sound = pygame.mixer.Sound("seagull_sound.wav")
+seagull_sound = pygame.mixer.Sound("Sounds/seagull_sound.wav")
 
-phoenix1_image = pygame.image.load("Phoenix1.png")
-phoenix2_image = pygame.image.load("Phoenix2.png")
-phoenix3_image = pygame.image.load("Phoenix3.png")
+phoenix1_image = pygame.image.load("Images/Phoenix1.png")
+phoenix2_image = pygame.image.load("Images/Phoenix2.png")
+phoenix3_image = pygame.image.load("Images/Phoenix3.png")
 phoenix_anim = [phoenix1_image, phoenix2_image]
 phoenix_existance = False
-phoenix_sound = pygame.mixer.Sound("phoenix_sound.wav")
+phoenix_sound = pygame.mixer.Sound("Sounds/phoenix_sound.wav")
 
-fire1_image = pygame.image.load("Fire1.png")
-fire2_image = pygame.image.load("Fire2.png")
-fire3_image = pygame.image.load("Fire3.png")
-fire4_image = pygame.image.load("Fire4.png")
+fire1_image = pygame.image.load("Images/Fire1.png")
+fire2_image = pygame.image.load("Images/Fire2.png")
+fire3_image = pygame.image.load("Images/Fire3.png")
+fire4_image = pygame.image.load("Images/Fire4.png")
 fire_anim = [fire1_image, fire2_image, fire3_image, fire4_image]
-fire_sound = pygame.mixer.Sound("fire_sound.wav")
+fire_sound = pygame.mixer.Sound("Sounds/fire_sound.wav")
 
-guy1_image = pygame.image.load("Guy1.png")
-guy2_image = pygame.image.load("Guy2.png")
+guy1_image = pygame.image.load("Images/Guy1.png")
+guy2_image = pygame.image.load("Images/Guy2.png")
 
-logo_image = pygame.image.load("ZiplineLogo.png")
+logo_image = pygame.image.load("Images/ZiplineLogo.png")
 
 font = pygame.font.Font(None, 100)
 font2 = pygame.font.Font(None, 30)
 font3 = pygame.font.Font(None, 20)
 
-music = pygame.mixer.music.load("At_Launch.wav")
+music = pygame.mixer.music.load("Sounds/At_Launch.ogg")
 
 class Guy:
 	def __init__(self):
